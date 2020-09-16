@@ -16,8 +16,6 @@ class Carbase:
         else:
             return None
 
-    def __repr__(self):
-        return self.car_type
 
 
 class Car(Carbase):
