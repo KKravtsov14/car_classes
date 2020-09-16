@@ -41,7 +41,7 @@ class Truck(Carbase):
         self.body_height = body_height
 
     def get_body_volume(self):
-        return self.body_height * self.body_width * self.body_height
+        return self.body_height * self.body_width * self.body_length
 
 
 class Specmachine(Carbase):
